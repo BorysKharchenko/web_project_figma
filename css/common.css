@@ -1,26 +1,24 @@
 
 @font-face {
     font-family: 'Graphik';
-    src: url(../fonts/GraphikRegular.otf) format('opentype');
+    src: url(../fonts/GraphikRegular.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
-}
-
-@font-face {
+    }
+    
+    @font-face {
     font-family: 'Graphik';
-    src: url(../fonts/GraphikBold.otf) format('opentype');
+    src: url(../fonts/GraphikBold.woff2) format('woff2');
     font-weight: 700;
-    font-style: normal; 
-}
-
-* {
+    font-style: normal;
+    }
+    
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    
+    }
+    :root {
     --section-text-color: #374754;
     --section-title-color: #252B42;
     --title-font-size: 3rem;
@@ -29,28 +27,32 @@
     text-align: center;
     color: var(--section-text-color);
     min-width: 320px;
-}
-
-.container {
+    }
+    
+    .container {
     max-width: 1200px;
     margin: auto;
-}
-
-img {
+    }
+    
+    img {
     width: 100%;
     display: block;
-}
+    }
     
-a {
+    a {
     color: #FFFFFF;
     text-decoration: none;
-}
-
-ul {
-    list-style-type: none; 
-}
-
-.blue-btn {
+    }
+    
+    a:hover {
+    color: #CCCCCC;
+    }
+    
+    ul {
+    list-style-type: none;
+    }
+    
+    .blue-btn {
     display: block;
     max-width: 353px;
     margin: auto;
@@ -61,9 +63,9 @@ ul {
     border-radius: 35px;
     color: #FFFFFF;
     border: none;
-}
-
-.button {
+    }
+    
+    .white-btn {
     display: inline-block;
     max-width: 236px;
     padding: 16px 62px;
@@ -72,4 +74,4 @@ ul {
     background-color: #2091F9;
     border-radius: 35px;
     text-decoration: none;
-}
+    }
