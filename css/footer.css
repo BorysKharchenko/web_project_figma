@@ -59,7 +59,7 @@ footer img {
 }
 
 .social_media img:last-child {
-    margin-right: 0;
+    margin-right: 33;
 }
 
 @media (min-width: 955px) {
